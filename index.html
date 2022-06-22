@@ -43,182 +43,184 @@
             </div>
             <div class="input-class">
                 <p class="text1" style="text-align: center; color: #072525;">Afraid of missing out?<br>Login Here</p>
-                <span class="vertical-form">
-                    <div class="input-container">
+                <div id="new-center-div">
+                    <span class="vertical-form">
+                        <div class="input-container">
+                            <input
+                            type="text"
+                            id="username-input"
+                            class="text-input"
+                            autocomplete="name"
+                            placeholder="Enter Firstname"
+                            required
+                            />
+                            <label class="label" for="fname">Firstname</label>
+                        </div>
+                        <div class="input-container">
+                            <input
+                            type="text"
+                            id="username-input"
+                            class="text-input"
+                            autocomplete="family-name"
+                            placeholder="Enter Surname"
+                            required
+                            />
+                            <label class="label" for="sname">Surname</label>
+                        </div>
+                    </span>
+                    <div class="input-container1">
                         <input
                         type="text"
                         id="username-input"
                         class="text-input"
-                        autocomplete="name"
-                        placeholder="Enter Firstname"
+                        autocomplete="email"
+                        placeholder="Enter Email"
                         required
                         />
-                        <label class="label" for="fname">Firstname</label>
+                        <label class="label" for="email">Email</label>
                     </div>
-                    <div class="input-container">
+                    <div class="vertical-form">
+                        <div class="input-container">
+                            <input
+                            type="text"
+                            id="username-input"
+                            class="text-input"
+                            autocomplete="off"
+                            placeholder="Enter your Username"
+                            required
+                            />
+                            <label class="label" for="username">Username</label>
+                        </div>
+                        <div class="input-container">
+                            <!-- <label for="dob"> Date Of Birth</label> -->
+                            <input type="text" placeholder="Date Of Birth" id="user-input" class="text-input">
+                        </div>
+                    </div>
+                    <div class="input-container1">
                         <input
+                        name="country"
                         type="text"
                         id="username-input"
                         class="text-input"
-                        autocomplete="family-name"
-                        placeholder="Enter Surname"
+                        autocomplete="country-name"
+                        placeholder="Enter Nationality"
+                        list = "countries"
                         required
+                        style="margin-bottom: 30px;"
                         />
-                        <label class="label" for="sname">Surname</label>
+                        <!-- <select>
+                            <option></option>
+                        </select> -->
+                        <!-- <input name = "country" list="countries" placeholder="Country"> -->
+                        <label class="label" for="nationality">Nationality</label>
+                        <datalist id="countries">
+                            <option value="Afghanistan"></option>
+                            <option value ="Albania"></option>
+                            <option value ="Algeria"></option>
+                            <option value ="Andorra"></option>
+                            <option value ="Angola"></option>
+                            <option value="Antigua & Deps"></option>
+                            <option value ="Argentina"></option>
+                            <option value ="Armenia"></option>
+                            <option value ="Australia"></option>
+                            <option value ="Austria"></option>
+                            <option value="Azerbaijan"></option>
+                            <option value="Bahamas"></option>
+                            <option value="Bahrain"></option>
+                            <option value="Bangladesh"></option>
+                            <option value="Barbados"></option>
+                            <option value="Belarus"></option>
+                            <option value="Belgium"></option>
+                            <option value="Belize"></option>
+                            <option value="Benin"></option>
+                            <option value="Bhutan"></option>
+                            <option value="Bolivia"></option>
+                            <option value="Bosnia and Herzegovina"></option>
+                            <option value="Botswana"></option>
+                            <option value="Brazil"></option>
+                            <option value="Brunei"></option>
+                            <option value="Bulgaria"></option>
+                            <option value="Burkina Faso"></option>
+                            <option value="Burundi"></option>
+                            <option value="Cote d'Ivoire"></option>
+                            <option value="Cabo Verde"></option>
+                            <option value="Cambodia"></option>
+                            <option value="Cameroon"></option>
+                            <option value="Canada"></option>
+                            <option value="Central African Republic"></option>
+                            <option value="Chad"></option>
+                            <option value="Chile"></option>
+                            <option value="China"></option>
+                            <option value="Colombia"></option>
+                            <option value="Comoros"></option>
+                            <option value="Congo (Congo-Brazzaville)"></option>
+                            <option value="Costa Rica"></option>
+                            <option value="Croatia"></option>
+                            <option value="Cuba"></option>
+                            <option value="Cyprus"></option>
+                            <option value="Czechia (Czech Republic)"></option>
+                            <option value="Democratic Republic of the Congo"></option>
+                            <option value="Denmark"></option>
+                            <option value="Djibouti"></option>
+                            <option value="Dominica"></option>
+                            <option value="Dominican Republic"></option>
+                            <option value="Ecuador"></option>
+                            <option value="Egypt"></option>
+                            <option value="El Savador"></option>
+                            <option value="Equatorial Guinea"></option>
+                            <option value="Eritrea"></option>
+                            <option value="Estonia"></option>
+                            <option value="Eswatini"></option>
+                            <option value="Ethiopia"></option>
+                            <option value="Fiji"></option>
+                            <option value="Finland"></option>
+                            <option value="France"></option>
+                            <option value="Gabon"></option>
+                            <option value="Gambia"></option>
+                            <option value="Georgia"></option>
+                            <option value="Germany"></option>
+                            <option value="Ghana"></option>
+                            <option value="Greece"></option>
+                            <option value="Grenada"></option>
+                            <option value="Guatemala"></option>
+                            <option value="Guinea"></option>
+                            <option value="Guinea-Bissau"></option>
+                            <option value="Guyana"></option>
+                            <option value="Haiti"></option>
+                            <option value="Holy See"></option>
+                            <option value="Honduras"></option>
+                            <option value="Hungary"></option>
+                            <option value="Iceland"></option>
+                            <option value="India"></option>
+                            <option value="Indonesia"></option>
+                            <option value="Iran"></option>
+                            <option value="Ireland"></option>
+                            <option value="Israel"></option>
+                            <option value="Italy"></option>
+                            <option value="Jamaica"></option>
+                            <option value="Japan"></option>
+                            <option value="Jordan"></option>
+                            <option value="Kazakhstan"></option>
+                            <option value="Kenya"></option>
+                            <option value="Kiribati"></option>
+                            <option value="Kuwait"></option>
+                            <option value="Kyrgyzstan"></option>
+                            <option value="Laos"></option>
+                            <option value="Latvia"></option>
+                            <option value="Lebanon"></option>
+                            <option value="Lesotho"></option>
+                            <option value="Liberia"></option>
+                            <option value="Libya"></option>
+                            <option value="Liechtenstein"></option>
+                            <option value="Lithuania"></option>
+                            <option value="Nigeria"></option>
+                        </datalist>
                     </div>
-                </span>
-                <div class="input-container1">
-                    <input
-                    type="text"
-                    id="username-input"
-                    class="text-input"
-                    autocomplete="email"
-                    placeholder="Enter Email"
-                    required
-                    />
-                    <label class="label" for="email">Email</label>
-                </div>
-                <div class="vertical-form">
-                    <div class="input-container">
-                        <input
-                        type="text"
-                        id="username-input"
-                        class="text-input"
-                        autocomplete="off"
-                        placeholder="Enter your Username"
-                        required
-                        />
-                        <label class="label" for="username">Username</label>
+                    <div id="sign-up">
+                        <a href="https://ajulojoshua.com.ng" target="_blank" >
+                            <p id="google">Sign Up For Free</p>
+                        </a>
                     </div>
-                    <div class="input-container">
-                        <!-- <label for="dob"> Date Of Birth</label> -->
-                        <input type="text" placeholder="Date Of Birth" id="user-input" class="text-input">
-                    </div>
-                </div>
-                <div class="input-container1">
-                    <input
-                    name="country"
-                    type="text"
-                    id="username-input"
-                    class="text-input"
-                    autocomplete="country-name"
-                    placeholder="Enter Nationality"
-                    list = "countries"
-                    required
-                    style="margin-bottom: 30px;"
-                    />
-                    <!-- <select>
-                        <option></option>
-                    </select> -->
-                    <!-- <input name = "country" list="countries" placeholder="Country"> -->
-                    <label class="label" for="nationality">Nationality</label>
-                    <datalist id="countries">
-                        <option value="Afghanistan"></option>
-                        <option value ="Albania"></option>
-                        <option value ="Algeria"></option>
-                        <option value ="Andorra"></option>
-                        <option value ="Angola"></option>
-                        <option value="Antigua & Deps"></option>
-                        <option value ="Argentina"></option>
-                        <option value ="Armenia"></option>
-                        <option value ="Australia"></option>
-                        <option value ="Austria"></option>
-                        <option value="Azerbaijan"></option>
-                        <option value="Bahamas"></option>
-                        <option value="Bahrain"></option>
-                        <option value="Bangladesh"></option>
-                        <option value="Barbados"></option>
-                        <option value="Belarus"></option>
-                        <option value="Belgium"></option>
-                        <option value="Belize"></option>
-                        <option value="Benin"></option>
-                        <option value="Bhutan"></option>
-                        <option value="Bolivia"></option>
-                        <option value="Bosnia and Herzegovina"></option>
-                        <option value="Botswana"></option>
-                        <option value="Brazil"></option>
-                        <option value="Brunei"></option>
-                        <option value="Bulgaria"></option>
-                        <option value="Burkina Faso"></option>
-                        <option value="Burundi"></option>
-                        <option value="Cote d'Ivoire"></option>
-                        <option value="Cabo Verde"></option>
-                        <option value="Cambodia"></option>
-                        <option value="Cameroon"></option>
-                        <option value="Canada"></option>
-                        <option value="Central African Republic"></option>
-                        <option value="Chad"></option>
-                        <option value="Chile"></option>
-                        <option value="China"></option>
-                        <option value="Colombia"></option>
-                        <option value="Comoros"></option>
-                        <option value="Congo (Congo-Brazzaville)"></option>
-                        <option value="Costa Rica"></option>
-                        <option value="Croatia"></option>
-                        <option value="Cuba"></option>
-                        <option value="Cyprus"></option>
-                        <option value="Czechia (Czech Republic)"></option>
-                        <option value="Democratic Republic of the Congo"></option>
-                        <option value="Denmark"></option>
-                        <option value="Djibouti"></option>
-                        <option value="Dominica"></option>
-                        <option value="Dominican Republic"></option>
-                        <option value="Ecuador"></option>
-                        <option value="Egypt"></option>
-                        <option value="El Savador"></option>
-                        <option value="Equatorial Guinea"></option>
-                        <option value="Eritrea"></option>
-                        <option value="Estonia"></option>
-                        <option value="Eswatini"></option>
-                        <option value="Ethiopia"></option>
-                        <option value="Fiji"></option>
-                        <option value="Finland"></option>
-                        <option value="France"></option>
-                        <option value="Gabon"></option>
-                        <option value="Gambia"></option>
-                        <option value="Georgia"></option>
-                        <option value="Germany"></option>
-                        <option value="Ghana"></option>
-                        <option value="Greece"></option>
-                        <option value="Grenada"></option>
-                        <option value="Guatemala"></option>
-                        <option value="Guinea"></option>
-                        <option value="Guinea-Bissau"></option>
-                        <option value="Guyana"></option>
-                        <option value="Haiti"></option>
-                        <option value="Holy See"></option>
-                        <option value="Honduras"></option>
-                        <option value="Hungary"></option>
-                        <option value="Iceland"></option>
-                        <option value="India"></option>
-                        <option value="Indonesia"></option>
-                        <option value="Iran"></option>
-                        <option value="Ireland"></option>
-                        <option value="Israel"></option>
-                        <option value="Italy"></option>
-                        <option value="Jamaica"></option>
-                        <option value="Japan"></option>
-                        <option value="Jordan"></option>
-                        <option value="Kazakhstan"></option>
-                        <option value="Kenya"></option>
-                        <option value="Kiribati"></option>
-                        <option value="Kuwait"></option>
-                        <option value="Kyrgyzstan"></option>
-                        <option value="Laos"></option>
-                        <option value="Latvia"></option>
-                        <option value="Lebanon"></option>
-                        <option value="Lesotho"></option>
-                        <option value="Liberia"></option>
-                        <option value="Libya"></option>
-                        <option value="Liechtenstein"></option>
-                        <option value="Lithuania"></option>
-                        <option value="Nigeria"></option>
-                    </datalist>
-                </div>
-                <div id="sign-up">
-                    <a href="https://ajulojoshua.com.ng" target="_blank" >
-                        <p id="google">Sign Up For Free</p>
-                    </a>
                 </div>
             </div>
         </form>
