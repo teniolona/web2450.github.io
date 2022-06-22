@@ -167,12 +167,12 @@ body {
     /* max-width: 600px; */
     /* width: 400px; */
     /* font-family: 'Segoe UI', sans-serif; */
-    /* display: flex; */
+    display: flex;
     padding: 20px 75px 40px 50px;
     text-align: right;
-    /* justify-items: center; */
+    justify-content: center;
     /* margin-top: 15px; */
-    margin: auto;
+    /* margin: auto; */
     /* padding: auto; */
     /* background: #b3b3b3; */
     border-radius: 10px;
