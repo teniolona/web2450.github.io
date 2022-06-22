@@ -167,6 +167,7 @@ body {
     /* max-width: 600px; */
     /* width: 400px; */
     /* font-family: 'Segoe UI', sans-serif; */
+    display: flex;
     padding: 20px 75px 40px 50px;
     text-align: center;
     justify-items: center;
