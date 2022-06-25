@@ -57,6 +57,7 @@ body {
 #stuff-nav {
     display: flex;
     justify-content: center;
+    margin: 5px;
 }
 /* #navbar {
     display: flex;
