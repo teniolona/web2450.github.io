@@ -8,6 +8,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100%;
+    margin: auto;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -57,7 +58,7 @@ body {
 #stuff-nav {
     display: flex;
     justify-content: center;
-    margin: 5px;
+    /* margin: 5px; */
 }
 /* #navbar {
     display: flex;
@@ -86,12 +87,12 @@ body {
     border: none;
 }
 .list-nav a:hover {
-    background: #b3b3b3;
+    background: #232323;
     transition: background 0.5s;
     color: #272530;
 }
 .list-nav a:visited {
-    background: transparent;
+    background: none;
     transition: background 0.5s;
     color: #b3b3b3;
 }
