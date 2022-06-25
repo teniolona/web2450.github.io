@@ -8,7 +8,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100%;
-    margin: 3px;
+    padding: 3px;
     overflow-x: hidden;
     overflow-y: auto;
 }
