@@ -57,6 +57,11 @@ body {
     /* overflow: auto; */
 }
 @media (max-width:1000px) {
+    #hamburger {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
     .container {
         border: none;
     }
@@ -74,11 +79,11 @@ body {
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
     }
     /* Position and style the close button (top right corner) */
-    #sidebar .closebtn {
+    #stuff-nav .closebtn {
         position: absolute;
         top: 0;
         right: 25px;
-        font-size: 36px;
+        font-size: 20px;
         margin-left: 100px;
     }
     /* The button used to open the sidebar */
