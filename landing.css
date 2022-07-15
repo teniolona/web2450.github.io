@@ -49,11 +49,12 @@ body {
     stroke-width: 1rem;
 }
 /* Container */
-#container {
+.container {
     border: 1px solid #5f5f5f;
     border-radius: 10px;
+    padding: 3px;
     /* overflow: auto; */
-} 
+}
 /* List */
 #stuff-nav {
     display: flex;
@@ -89,7 +90,6 @@ body {
 .list-nav a:hover {
     background: #232323;
     transition: background 0.5s;
-    color: #272530;
 }
 .list-nav a:visited {
     background: none;
