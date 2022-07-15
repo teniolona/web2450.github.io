@@ -73,6 +73,32 @@ body {
         overflow-x: hidden;  /* Disable horizontal scroll */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
     }
+    /* Position and style the close button (top right corner) */
+    #sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 100px;
+    }
+    /* The button used to open the sidebar */
+    .openbtn {
+        font-size: 25px;
+        border: none;
+        background-color: #fff;
+        color: #072525;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+    .openbtn:hover {
+        background-color: #444;
+        transition: background-color .3s;
+    }
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    /* @media screen and (max-height: 450px) {
+        .sidebar {padding-top: 15px;}
+        .sidebar a {font-size: 18px;}
+    } */
 }
 /* List */
 #stuff-nav {
