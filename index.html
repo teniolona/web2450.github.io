@@ -9,6 +9,7 @@
 </html> -->
 <!DOCTYPE html>
 <html lang="en">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible">
     <meta content="user-scalable = yes">
     <meta name="viewport" content="width = device-width, initial-scale= 1.0">
@@ -21,13 +22,17 @@
     <body onload="load()">
         <div id="stuff-nav">
             <div class="container" id="myContainer">
+                <!-- The Close Button for Hamburger -->
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <!-- Nav List -->
                 <li class="list-nav"><a href="#home">Home</a></li>
                 <li class="list-nav"><a href="#About">About</a></li>
                 <li class="list-nav"><a href="#Stories">Stories</a></li>
                 <li class="list-nav"><a href="#Portfolios">Our Portfolio</a></li>
                 <li class="list-nav"><a href="#Blogs">Blogs</a></li>
                 <li class="list-nav"><a href="#ContactUs">Contact Us</a></li>
+                <!-- The Hamburger Menu -->
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
             </div>
         </div>
         

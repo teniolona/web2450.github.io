@@ -56,6 +56,24 @@ body {
     padding: 3px;
     /* overflow: auto; */
 }
+@media (max-width:1000px) {
+    .container {
+        border: none;
+    }
+    #stuff-nav {
+        display: block;
+        height: fit-content; /* Height fit to its content */
+        width: 0; /* Still be changed with javascript */
+        top: 0;
+        left: 0;
+        z-index: 1; /* Stay on Top of real page */
+        background-color: #fff;
+        padding-top: 30px; /* Place content 30px from the top */
+        position: fixed;
+        overflow-x: hidden;  /* Disable horizontal scroll */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    }
+}
 /* List */
 #stuff-nav {
     display: flex;
