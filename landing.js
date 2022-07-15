@@ -19,3 +19,11 @@ function load() {
         this.type = 'date'
     }
 }
+
+/* Set the width of the side-bar to 200px */
+function openNav() {
+    document.getElementById("stuff-nav").style.width = "200px";
+}
+function closeNav() {
+    document.getElementById("stuff-nav").style.width = "0";
+}
