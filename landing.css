@@ -56,6 +56,13 @@ body {
     padding: 3px;
     /* overflow: auto; */
 }
+/* Media Query for side navbar */
+.openbtn {
+    visibility: hidden;
+}
+.closebtn {
+    visibility: hidden;
+}
 @media screen and (max-width:1000px) {
     #hamburger {
         position: fixed;
@@ -88,6 +95,7 @@ body {
     }
     /* The button used to open the sidebar */
     .openbtn {
+        visibility: visible;
         font-size: 25px;
         border: none;
         background-color: #fff;
@@ -98,6 +106,9 @@ body {
     .openbtn:hover {
         background-color: #444;
         transition: background-color .3s;
+    }
+    .closebtn {
+        visibility: visible;
     }
     /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
     /* @media screen and (max-height: 450px) {
