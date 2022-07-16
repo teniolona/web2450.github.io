@@ -163,6 +163,9 @@ body {
     .input-container1 {
         width: auto;
     }
+    .input-container {
+        width: auto;
+    }
 }
 .label {
     position: absolute;
@@ -247,6 +250,12 @@ body {
     /* width: 50%; */
     /* overflow-x: auto; */
 }
+/* Media Query for .input-class */
+@media screen and (max-width:500px) {
+    .input-class {
+        width: auto;
+    }
+}
 /* Center div */
 /* #new-center-div {
     justify-content: center;
@@ -265,6 +274,12 @@ body {
     padding: 0.2px 7px;
     margin: auto;
     width: 200px;
+}
+/* Media Query for #sign-up */
+@media screen and (max-width:500px) {
+    #sign-up {
+        width: auto;
+    }
 }
 #sign-up a {
     text-decoration: none;
