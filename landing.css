@@ -14,42 +14,6 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
 }
-/* Page */
-#tab-form {
-    overflow: auto;
-    display: flex;
-    gap: 3rem;
-    width: 100%;
-    padding: 40px 20px 20px 20px;
-    box-sizing: border-box;
-    position: absolute;
-    background: none;
-    border-radius: 20px;
-    z-index: -2;
-}
-/* @media (max-width : 882px) {
-    #tab-form {
-        display: block;
-    }
-} */
-#style123 {
-    display: flex;
-    justify-content: center;
-}
-#space-id {
-    font-size: 57px;
-    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
-    color: #fff;
-    transition: all 0.3s;
-}
-.text1 {
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fff;
-    transition: all 0.3s;
-    stroke: #272530;
-    stroke-width: 1rem;
-}
 /* Container */
 .container {
     display: flex;
@@ -58,6 +22,12 @@ body {
     border-radius: 10px;
     padding: 2px;
     /* overflow: auto; */
+}
+/* List */
+#stuff-nav {
+    display: flex;
+    justify-content: center;
+    /* margin: 5px; */
 }
 /* Media Query for side navbar */
 .openbtn {
@@ -71,6 +41,19 @@ body {
 #hamburger {
     visibility: hidden;
     content-visibility: hidden;
+    width: auto;
+    height: auto;
+    padding: 10px 10px 0 0;
+}
+#sign-up2 {
+    background: none;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #b3b3b3;
+    margin: 0 10px 0 0;
 }
 @media screen and (max-width:1000px) {
     #hamburger {
@@ -78,9 +61,11 @@ body {
         top: 0;
         right: 0;
         visibility: visible;
+        content-visibility: visible;
     }
     .container {
         border: none;
+        display: block;
     }
     #stuff-nav {
         display: block;
@@ -110,13 +95,15 @@ body {
     /* The button used to open the sidebar */
     .openbtn {
         visibility: visible;
-        font-size: 20px;
+        content-visibility: visible;
+        font-size: 25px;
         border-radius: 4px;
         border: 0;
         background-color: #fff;
         color: #072525;
-        padding: 8px 12px;
-        margin: 10px 10px 0 0;
+        font-weight: bolder;
+        padding: 6px 12px;
+        /* margin: 30px 30px 0 0; */
         cursor: pointer;
     }
     .openbtn:hover {
@@ -125,18 +112,13 @@ body {
     }
     .closebtn {
         visibility: visible;
+        content-visibility: visible;
     }
     /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
     /* @media screen and (max-height: 450px) {
         .sidebar {padding-top: 15px;}
         .sidebar a {font-size: 18px;}
     } */
-}
-/* List */
-#stuff-nav {
-    display: flex;
-    justify-content: center;
-    /* margin: 5px; */
 }
 /* #navbar {
     display: flex;
@@ -158,7 +140,7 @@ body {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    color: #b3b3b3;
+    color: #072525;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px 35px;
@@ -172,6 +154,57 @@ body {
     background: none;
     transition: background 0.5s;
     color: #b3b3b3;
+}
+/* Media Query for lists */
+@media screen and (max-width:1000px) {
+    .list-nav a {
+        color: #b3b3b3;
+    }
+    .list-nav a:hover {
+        color: #072525;
+    }
+    .list-nav a:visited {
+        color: #b3b3b3;
+        background: none;
+        transition: background 0.5s;
+    }
+}
+
+/* Page */
+#tab-form {
+    overflow: auto;
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    padding: 40px 20px 20px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    background: none;
+    border-radius: 20px;
+    z-index: -2;
+}
+@media (max-width : 882px) {
+    #tab-form {
+        display: block;
+    }
+}
+#style123 {
+    display: flex;
+    justify-content: center;
+}
+#space-id {
+    font-size: 57px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    color: #fff;
+    transition: all 0.3s;
+}
+.text1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    transition: all 0.3s;
+    stroke: #272530;
+    stroke-width: 1rem;
 }
 
 /* Inputs */
