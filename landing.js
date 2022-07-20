@@ -22,7 +22,7 @@ function load() {
 
 /* Set the width of the side-bar to 200px */
 function openNav() {
-    document.getElementById("stuff-nav").style.width = "200px";
+    document.getElementById("stuff-nav").style.width = "170px";
 }
 function closeNav() {
     document.getElementById("stuff-nav").style.width = "0";
