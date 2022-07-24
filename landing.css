@@ -30,7 +30,7 @@ body {
     /* margin: 5px; */
 }
 /* Go Back Up */
-button.dot {
+button#dot {
     position: fixed;
     bottom: 0;
     right: 0;
