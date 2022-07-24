@@ -253,11 +253,13 @@ body {
 .label {
     position: absolute;
     left: 10px;
-    top: 14px;
+    top: 13px;
     transition: all 0.2s;
     padding: 0 2px;
     z-index: 1;
     color: #b3b3b3;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
 }
 .label::before {
     content: "";
@@ -297,7 +299,7 @@ body {
 .text-input:focus + .label, .filled {
     top: -10px;
     color: #148185;
-    font-size: 14px;
+    font-size: 12px;
 }
 .text-input::placeholder {
     font-size: 12px;
@@ -313,9 +315,16 @@ body {
 }
 #user-input {
     font-size: 12px;
+    font-family: Verdana, sans-serif;
 }
 .text-input:focus::placeholder {
     opacity: 1;
+}
+@media screen and (max-width:500px) {
+    #user-input {
+        font-size: 10px;
+        font-family: Verdana, sans-serif;
+    }
 }
 .input-class {
     /* max-width: 500px; */
@@ -377,7 +386,7 @@ body {
 }
 #google {
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
     color: #fff;
     margin: 13px 10px;
 }
