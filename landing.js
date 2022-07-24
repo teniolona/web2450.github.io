@@ -20,6 +20,16 @@ function load() {
     }
 }
 
+/* Back To Top Button */
+const scrollToTop = () => {
+    window.scroll({
+        top: 0,
+        behavior: "smooth",
+    });
+};
+
+document.getElementById(button).onclick = scrollToTop;
+
 /* Set the width of the side-bar to 200px */
 function openNav() {
     document.getElementById("stuff-nav").style.width = "170px";
