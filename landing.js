@@ -38,7 +38,7 @@ function closeNav() {
     document.getElementById("stuff-nav").style.width = "0";
 }
 
-var acc = document.getElementsByClassName("accordion_1");
+/* var acc = document.getElementsByClassName("accordion_1");
 var i;
 
 for (i = 0; i < acc.length; i++) {
@@ -51,4 +51,9 @@ for (i = 0; i < acc.length; i++) {
           dropdown_1.style.display = 'block';
         }
     });
+} */
+
+/* function accordion() {
+    document.getElementsByClassName("dropdown_1").style.display = "block";
 }
+ */
