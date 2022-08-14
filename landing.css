@@ -493,7 +493,7 @@ button#dot {
     .sections_1 { grid-template-columns: repeat(3, 1fr);}
 }
 .accordion_1 {
-    font-size: medium;
+    font-size: large;
     border: none;
     background: none;
     /* background-color: #b3b3b3; */
