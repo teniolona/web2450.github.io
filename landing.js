@@ -41,16 +41,14 @@ function closeNav() {
 var acc = document.getElementsByClassName("accordion_1");
 var i;
 
-for(i = 0; i < acc.length; i++) {
-    acc[i].addEventListener('click', function() {
-        this.classList.toggle('active');
-
-        /* Change the state of the active class with if condition according to its state*/
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
         var dropdown_1 = this.nextElementSibling;
         if (dropdown_1.style.display === 'block') {
-            dropdown_1.style.display = 'none';
+          dropdown_1.style.display = 'none';
         } else {
-            dropdown_1.style.display = 'block';
+          dropdown_1.style.display = 'block';
         }
     });
 }

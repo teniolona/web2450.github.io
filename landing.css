@@ -452,11 +452,6 @@ button#dot {
 .section {
     width: 100%;
     margin-bottom: 80px;
-    background-image: url(benz-amg-gt.jpg);
-    /* position: fixed; */
-    /* background-attachment: fixed; */
-    background-repeat: no-repeat;
-    position: fixed;
 }
 .title-header {
     background: #148185;
@@ -527,7 +522,7 @@ button#dot {
     color: #b3b3b3;
     border-bottom: 1px solid #b3b3b3;
 }
-.accordion_1:after {
+/* .accordion_1:after {
     content: '\002B';
     font-weight: bold;
     color: #ffffff;
@@ -537,4 +532,4 @@ button#dot {
 }
 .active:after {
     content: "\2212";
-}
+} */
