@@ -538,3 +538,83 @@ button#dot {
 /* .accordion_1: {
     
 } */
+/* Profile */
+.profiles {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.profile {
+    width: 250px;
+    padding: 1rem;
+    background-image: linear-gradient(90deg, #134679, #a9a9a9);
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+/* .profile_center {
+    text-align: center;
+} */
+.profile_name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    width: auto;
+}
+.profile_role {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0;
+    padding-top: 7px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.social_empty {
+    width: 0;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.social_empty1 {
+    border-color: #134679;
+}
+.social_empty2 {
+    border-color: #d64545;
+}
+.social_empty3 {
+    border-color: #092a4a;
+}
+
+/* Carousel */
+.carousel {
+    overflow: hidden;
+    max-width: 600px;
+    position: relative;
+
+}
+.carousel .carousel_item,
+.carousel .carousel_item--hidden {
+    display: none;
+}
+
+.carousel .carousel_item img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+.carousel .carousel_item--visible {
+    display: block;
+}
+
+.carousel .carousel_actions {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+}
