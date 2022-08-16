@@ -464,16 +464,15 @@ button#dot {
     margin: auto;
     padding: 0px 10px;
     width: 15%;
+    /* font: normal 30px bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    text-align: center; */
+}
+.title-text {
     font: normal 30px bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
     text-align: center;
 }
-/* .title-text {
-    font: normal 30px bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
-    text-align: center;
-    font-size: inherit;
-} */
 
 .sections_1 {
     max-width: 1000px;
