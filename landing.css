@@ -458,6 +458,11 @@ button#dot {
     background-position: relative;
     padding: 2rem 0;
 }
+@media screen and (max-width:600px) {
+    .section {
+        padding:"2rem 2rem";
+    }
+}
 .title-header {
     background: #148185;
     border-radius: 10px;
