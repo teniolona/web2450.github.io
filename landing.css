@@ -603,32 +603,3 @@ button#dot {
 .social_empty3 {
     border-color: #092a4a;
 }
-
-/* Carousel */
-.carousel {
-    overflow: hidden;
-    max-width: 600px;
-    position: relative;
-
-}
-.carousel .carousel_item,
-.carousel .carousel_item--hidden {
-    display: none;
-}
-
-.carousel .carousel_item img {
-    max-width: 600px;
-    width: 100%;
-    height: auto;
-}
-
-.carousel .carousel_item--visible {
-    display: block;
-}
-
-.carousel .carousel_actions {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 50%;
-}
