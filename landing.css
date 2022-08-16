@@ -583,6 +583,11 @@ button#dot {
     justify-content: center;
     gap: 2.5rem;
 }
+@media screen and (max-width:"600px") {
+    .social-media {
+        display: block;
+    }
+}
 .social_empty {
     width: 0;
     padding: 1rem;
