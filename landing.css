@@ -453,12 +453,9 @@ button#dot {
     margin: 0, auto;
     width: 100%;
     margin-bottom: 80px;
-    background-image: url(./benz-amg-gt-sedan.jpg);
-    background-attachment: fixed;
-    background-position: relative;
     padding: 2rem 0;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:500px) {
     .section {
         padding:"2rem 2rem";
     }
@@ -467,14 +464,11 @@ button#dot {
     background: #148185;
     border-radius: 10px;
     margin: auto;
-    padding: 0px 10px;
-    width: 15%;
-    /* font: normal 30px bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
-    text-align: center; */
+    padding: 0px 20px;
+    width: fit-content;
 }
 .title-text {
-    font: normal 30px bolder;
+    font: normal 20px bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
     text-align: center;
 }
@@ -549,12 +543,13 @@ button#dot {
 } */
 /* Profile */
 .profiles {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 3rem;
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    gap: 2rem;
 }
 .profile {
-    width: 250px;
+    width: 280px;
     padding: 1rem;
     background-image: linear-gradient(90deg, #134679, #a9a9a9);
     margin: auto;
@@ -582,11 +577,6 @@ button#dot {
     display: flex;
     justify-content: center;
     gap: 2.5rem;
-}
-@media screen and (max-width:"600px") {
-    .social-media {
-        display: block;
-    }
 }
 .social_empty {
     width: 0;
