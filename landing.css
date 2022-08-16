@@ -450,8 +450,13 @@ button#dot {
 
 /* Sections */
 .section {
+    margin: 0, auto;
     width: 100%;
     margin-bottom: 80px;
+    background-image: url(./benz-amg-gt-sedan.jpg);
+    background-attachment: fixed;
+    background-position: relative;
+    padding: 2rem 0;
 }
 .title-header {
     background: #148185;
@@ -504,7 +509,7 @@ button#dot {
     outline: none;
     margin: 0, auto;
     transition: all 0.4s;
-    /* width: 100%; */
+    width: 100%;
     cursor: pointer;
 }
 .dropdown_1 {
@@ -549,7 +554,7 @@ button#dot {
     padding: 1rem;
     background-image: linear-gradient(90deg, #134679, #a9a9a9);
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 3rem;
     border-radius: 10px;
 }
 /* .profile_center {
