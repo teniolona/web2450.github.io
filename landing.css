@@ -548,12 +548,19 @@ button#dot {
     display: grid;
     gap: 2rem;
 }
+@media (min-width: 600px) {
+    .profiles { grid-template-columns: repeat(2, 1fr);}
+}
+
+@media (min-width: 900px) {
+    .profiles { grid-template-columns: repeat(3, 1fr);}
+}
 .profile {
     width: 280px;
     padding: 1rem;
     background-image: linear-gradient(90deg, #134679, #a9a9a9);
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
     border-radius: 10px;
 }
 /* .profile_center {
